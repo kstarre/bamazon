@@ -1,4 +1,4 @@
-const bamazonConnection = require("./connections").bamazon;
+const bamazonConnection = require("./includes/connections").bamazon;
 
 let supervisorControls = function() {
 

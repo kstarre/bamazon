@@ -1,6 +1,5 @@
-const bamazonConnection = require("./connections").bamazon;
+const bamazonConnection = require("./includes/connections").bamazon;
 const Inquirer = require('inquirer');
-// const Promises = require('bluebird');
 
 let managerControls = function() {
 	Inquirer.prompt([
